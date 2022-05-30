@@ -1,6 +1,13 @@
 # PingPongScoreboard
 Code for a ping pong scoreboard using an Arduino Uno R3, LED Matrix, and 3 push buttons
 
+## Features
+* Scoreboard for ping pong, first to score 21 wins. 
+* Features three pushbuttons: player one, player two, and a reset button.
+* The player who wins has to score by two.
+* Prompts players to volley for the first serve.
+* Serve possession switches between players every 5 points scored.
+
 ## Materials Required
 * Arudino Uno R3
 * 8x32 MAX7219 LED Matrix
@@ -21,3 +28,8 @@ Code for a ping pong scoreboard using an Arduino Uno R3, LED Matrix, and 3 push 
 
 Seen below is a schematic of the scoreboard.
 ![Scoreboard Schematic](https://user-images.githubusercontent.com/77818029/171063943-401f8b90-fbf3-436a-b70e-a79a461fdec5.png)
+
+## Notes
+* Any of the pin locations can be changed, make sure the updated locations are changed in the code.
+* For a more compact design, I removed the power rail from the small breadboard so the Scoreboard didn't have all of the unused breadboard space carried around.
+* If there are any features I am missing, let me know!
